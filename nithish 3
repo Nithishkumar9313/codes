@@ -1,0 +1,10 @@
+ import java.util.Scanner;
+    class nithish{
+        public static void main(String[]args){
+            Scanner scan=new Scanner(System.in);
+            int mark1=scan.nextInt();
+            int mark2=scan.nextInt();
+            int total=mark1+mark2;
+            System.out.println(total);
+        }
+    }
