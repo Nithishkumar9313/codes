@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter your age");
+        int a=scan.nextInt();
+        System.out.println("Enter your name");
+        String b=scan.next();
+        System.out.println("Enter your branch");
+        String c=scan.next();
+        System.out.println("Enter your Grade");
+        int d=scan.nextInt();
+        System.out.println("Your age is:"+a);
+        System.out.println("Your Name is:"+b);
+        System.out.println("Your branch is:"+c);
+        System.out.println("Your Grade is:"+d);
+    }
+}
